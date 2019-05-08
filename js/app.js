@@ -37,6 +37,17 @@ function validateField() {
   if (this.type === "email") {
     validateEmail(this);
   }
+
+  // Both will return errors, then check if there're any errors
+  errors = document.querySelectorAll(".error");
+
+  // Check that the inputs are not empty
+  if (email.value !== "" && subject.value !== "" && message.value !== "") {
+    if (errors.length === 0) {
+      // the buttonb should be enable
+      sendBtn.disabled = false;
+    }
+  }
 }
 
 // Validate the length of the fields
