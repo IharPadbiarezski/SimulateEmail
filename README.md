@@ -5,3 +5,5 @@
 - When submitting the form an spinner should be displayed
 - Second spinner must be displayed after the email is sent and clear the form
 - A resset button should be added
+
+Link: https://iharpadbiarezski.github.io/SimulateEmail/
